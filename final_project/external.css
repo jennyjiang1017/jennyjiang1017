@@ -1,0 +1,55 @@
+		@font-face {
+			font-family: "Adelia";
+			src: url("fonts/adelia.ttf");
+		}
+		@font-face {
+			font-family: "The Signature";
+			src: url("fonts/thesignature.ttf");
+		}
+		@font-face {
+			font-family: "Elegant Typewriter";
+			src: url("fonts/eleganttypewriter.ttf");
+		}
+		h1 {
+			font-family: "Adelia", fantasy;
+			color: #808080;
+			text-align: center;
+			margin-top: 40px;
+		}
+		#navbar li {
+			list-style: none;
+		}
+		#navbar {
+			display: flex;
+				justify-content: center;
+				z-index: 1;
+		}
+		#navbar a {
+			text-decoration: none;
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			display: block;
+			color: #899499;
+			background-color: #F1E4F3;
+		}
+		#navbar > ul {
+			display: flex;
+			align-items: flex-start;
+		}
+		#footer {
+			display: block;
+			justify-content: center;
+			background-color: #899499;
+			text-align: center;
+			color: floralwhite;
+		}
+		@media(max-width: 767px){
+			#main {
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+				border: none;
+			}
+		}

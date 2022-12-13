@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="This page is a brief biography about Jenny Jiang that includes a blurb and a picture.">
+
+	<link rel="stylesheet" href="external.css">
+
+	<title>About Page</title>
+	<style>
+		#about {
+			display: flex;
+			justify-content: center;
+			margin: 0;
+		}
+		#me {
+			display: flex;
+			object-fit: cover;
+			width: 20%;
+			float: left;
+			margin-top: 40px;
+			margin-left: 250px;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		#introtext {
+			margin-top: 50px;
+			margin-right: 30px;
+			line-height: 30px;
+		}
+		#divider {
+			display: flex;
+			position: relative;
+			right: 400px;
+			top: 270px;
+			object-fit: cover;
+			height: 30%;
+		}
+		#footer {
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+			display: block;
+			justify-content: center;
+			background-color: #899499;
+			text-align: center;
+			color: floralwhite;
+		}
+		@media(max-width: 1420px){
+			#main {
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+				border: none;
+			}
+			#divider {
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="navbar">
+		<ul>
+			<li><a href="homepage.html" class="menu">Home</a></li>
+			<li><a href="homepage.html#projects">Projects</a></li>
+			<li><a href="pdf/resume.pdf">Resume</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div> <!-- navbar -->
+
+	<h1>About Jenny</h1>
+	<div id="about">
+	<img id="me" src="img/me.jpg" alt="Me">
+	<p id="introtext">Jenny Jiang is a student at the University of Southern California majoring in Public Relations and minoring in Chinese for the Professions. She intends to graduate in December 2022 and is currently looking for PR or marketing related jobs. Recently, she has also had a growing interest in UI/UX design. She hopes that with this personal portfolio, she is able to showcase some of her previous projects that she's done! In her free time, Jenny enjoys café hopping, collecting things, and playing tennis. Have a wonderful day!</p>
+	<img id="divider" src="img/divider.jpg" alt="Bow Divider">
+	</div>
+
+	<div id="footer">
+		<p>Jenny Jiang &copy; 2022</p>
+	</div> <!-- footer -->
+
+</div> <!-- main -->
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="This page is a contact form that viewers of the webpage can use to contact Jenny Jiang.">
+
+	<link rel="stylesheet" href="external.css">
+
+	<title>Contact Page</title>
+	<style>
+		form {
+			text-align: center;
+		}
+		.row {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		button {
+			font-family: "Elegant Typewriter", fantasy;
+			font-size: 16px;
+			background-color: #F1E4F3;
+			padding: 5px 20px;
+			border-radius: 8px;
+		}
+		#email {
+			width: 200px;
+		}
+		#text {
+			width:400px;
+			height:100px;
+		}
+		#footer {
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+		}
+	</style>
+
+</head>
+<body>
+<div id="main">
+	<div id="navbar">
+		<ul>
+			<li><a href="homepage.html" class="menu">Home</a></li>
+			<li><a href="homepage.html#projects">Projects</a></li>
+			<li><a href="pdf/resume.pdf">Resume</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div> <!-- navbar -->
+
+	<h1>Contact</h1>
+
+	<form action="submit.html">
+		<div class="row">
+			<div class="col">
+		<label for="name">Name:</label>
+			</div>
+		<input type="text" id="name" placeholder="Jenny Jiang">
+		</div>
+
+		<div class="row">
+			<div class="col">
+		<label for="email">Email:</label>
+			</div>
+		<input type="email" id="email" placeholder="jljiang@usc.edu">
+		</div>
+
+		<div class="row">
+			<div class="col">
+		<label for="text">Message:</label>
+			</div>
+		<textarea id="text" placeholder="Begin typing your message here"></textarea>
+		</div>
+
+		<div class="row">
+		<button style="cursor: pointer" type="submit">Send</button>
+		<button style="cursor: pointer" type="reset">Clear</button>
+		</div>
+	</form> <!-- form -->
+
+	<div id="footer">
+		<p>Jenny Jiang &copy; 2022</p>
+	</div> <!-- footer -->
+
+</div> <!-- main -->
+</body>
+</html>
